@@ -14,36 +14,36 @@
         <nav>
             <div class="nav_logo"><a href="#">WebTravel</a></div>
             <ul class="nav_links">
-                <li><a class="link">Home</a></li>
-                <li><a class="link">Blog</a></li>
-                <li><a class="link">Offers</a></li>
-                <li><a class="link">Services</a></li>
-                <li><a class="link">Contacts</a></li>
+                <li><a class="link" id="navInicio">Home</a></li>
+                <li><a class="link" id="navBlog">Blog</a></li>
+                <li><a class="link" id="navOfertas">Offers</a></li>
+                <li><a class="link" id="navServicios">Services</a></li>
+                <li><a class="link" id="navContactos">Contacts</a></li>
             </ul>
-            <button id="languageButton">Cambiar idioma</button>
+            <i class="ri-earth-line" id="languageButton"></i>
         </nav>
         <!-- Header -->
         <header>
             <div class="section_container">
                 <div class="header_content">
-                    <h1>Travel</h1>
-                    <p>
-                        Embark on a journey of a lifetime and explore the
-                        world's msot breathtaking destinations with our expert
-                        travel advice. From exotic beaches to cultural wonders,
-                        we've got you covered with our comprehensive travel
-                        guides and insider tips.
+                    <h1 id="headerTitle">Travel</h1>
+                    <p id="headerText">
+                        Embark on the journey of a lifetime and explore the most
+                        stunning destinations in the world with our expert
+                        travel tips. From exotic beaches to cultural marvels, we
+                        offer comprehensive travel guides and expert advice.
                     </p>
                     <button>Read more</button>
                 </div>
             </div>
         </header>
-
         <!-- Journey -->
         <section class="journey_container">
             <div class="section_container">
-                <h2 class="section_title">Start Your Journey</h2>
-                <p class="section_subtitle">
+                <h2 class="section_title" id="journeyTitle">
+                    Start your journey
+                </h2>
+                <p class="section_subtitle" id="journeySubtitle">
                     The most searched countries in December
                 </p>
                 <div class="journey_grid">
@@ -92,41 +92,39 @@
                 </div>
             </div>
         </section>
-
         <!-- Banner -->
         <section class="banner_container">
             <div class="section_container">
                 <div class="banner_content">
-                    <h2>Discount 20-30% Off</h2>
-                    <p>
-                        Travel the world on a budget with our unbeatable
-                        discounted travel deals. Whether you're looking for a
-                        last-minute getaway or planning ahead, we've got you
-                        covered with incredible discounts on flights, hotels,
-                        and packages. Don't wait, book now and experience the
-                        adventure of a lifetime without breaking the bank.
+                    <h2 id="bannerTitle">20-30% Discount</h2>
+                    <p id="bannerText">
+                        Travel the world on a budget with our incredible travel
+                        deals. Whether you're looking for a last-minute getaway
+                        or planning ahead, we offer amazing discounts on
+                        flights, hotels, and packages. Don't wait, book now and
+                        experience the adventure of a lifetime without breaking
+                        the bank.
                     </p>
-                    <button>See Tours</button>
+                    <button>View tours</button>
                 </div>
             </div>
         </section>
-
-        <!-- Display grid -->
+        <!-- Display Grid -->
         <section class="display_container">
             <div class="section_container">
-                <h2 class="section_title">Why Choose Us</h2>
-                <p class="section_subtitle">
-                    The gladdest moment in human life, is a departure into
-                    unknow lands.
-                </pc>
+                <h2 class="section_title" id="displayTitle">Why choose us</h2>
+                <p class="section_subtitle" id="displaySubtitle">
+                    The happiest moment in human life is departing for unknown
+                    lands.
+                </p>
                 <div class="display_grid">
                     <div class="display_card grid-1">
                         <img src="assets/grid-1.jpg" alt="grid" />
                     </div>
                     <div class="display_card">
                         <i class="ri-earth-line"></i>
-                        <h4>Pasionate Travel</h4>
-                        <p>
+                        <h4 id="cardH4_1">Exciting Adventures</h4>
+                        <p id="cardP_1">
                             Fuel your passion for adventure and discover new
                             horizons.
                         </p>
@@ -139,16 +137,14 @@
                     </div>
                     <div class="display_card">
                         <i class="ri-road-map-line"></i>
-                        <h4>Beautiful Places</h4>
-                        <p>
-                            Uncover the world's most breathtakingly beautiful
-                            places.
+                        <h4 id="cardH4_2">Beautiful Places</h4>
+                        <p id="cardP_2">
+                            Explore the most stunning places in the world.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-
         <footer>
             <div class="section_container">
                 <h4>WebTravel</h4>
@@ -158,11 +154,12 @@
                     <span><i class="ri-twitter-x-fill"></i></span>
                     <span><i class="ri-whatsapp-line"></i></span>
                 </div>
-                <p>
-                    Travel make one modest. You see what tiny place you occupy in the world.
+                <p id="footerText">
+                    Travel makes us modest. It makes us realize how small our
+                    place in the world is.
                 </p>
             </div>
         </footer>
-
     </body>
+    <script src="app.js"></script>
 </html>
